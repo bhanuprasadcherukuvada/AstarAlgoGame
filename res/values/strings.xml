@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DP</string>
+
+    <!-- Let there are 4 intro slides let there be 4 string titles and descriptors too -->
+
+    <string name="slide1_title">Slide1</string>
+    <string name="slide1_desc">Slide1Desc</string>
+
+    <string name="slide2_title">Slide2</string>
+    <string name="slide2_desc">Slide2Desc</string>
+
+    <string name="slide3_title">Slide3</string>
+    <string name="slide3_desc">Slide3Desc</string>
+
+    <string name="slide4_title">Slide4</string>
+    <string name="slide4_desc">Slide4Desc</string>
+
+
+</resources>

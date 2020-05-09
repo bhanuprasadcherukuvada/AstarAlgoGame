@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="Darkpurple">#260026</color>
+    <color name="darkgreen">#001700</color>
+    <color name="paleblue">#3a63cc</color>
+    <color name="paleyellow">#c3cc16</color>
+
+
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+
+
+
+</resources>

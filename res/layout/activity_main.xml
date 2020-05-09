@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgimg1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the A* ALGO GAME"
+            android:textSize="25sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="30sp"
+            android:id="@+id/tv_m_welcome"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_m_welcome"
+            android:layout_marginTop="20sp"
+            android:text="\n\t\t\t\t\t\tHow to Play the game?\n\n\n 1.Click Play the Game.\n\n2.Move the Coloured Box from Start to End.
+\n\n3.While Moving ensure that you move in the shortest possible path.\n\n4.When you reach the destination we show you the best possible solution that uses A* algorithm.\n\n5.In the Maze you can travel in all 8 directions where White are allowed cells and blue are blocked cells Red is the start point Yellow is the Destination.The Solution of A* i.e the Path is shown in Green Color\n\n6.If you want to Logout Click on Logout."
+
+            android:textSize="20sp"
+            android:id="@+id/tv_m_data"
+
+        ></TextView>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log Out"
+            android:textSize="25sp"
+            android:layout_below="@id/tv_m_data"
+            android:layout_marginTop="80sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="40sp"
+            android:layout_marginLeft="20sp"
+            android:onClick="logoutfun"
+            android:id="@+id/btn_m_logout"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_m_data"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="80sp"
+            android:text="Let's Play"
+            android:layout_marginRight="20sp"
+            android:textSize="25sp"
+            android:id="@+id/btn_m_letsplay"
+            android:onClick="letsplayfun"
+
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box6"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start---->Finish"
+        android:textSize="40sp"
+        android:textColor="@color/Darkpurple"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:id="@+id/slide2title"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lets see whether you could reach from source to destination?"
+        android:textSize="25sp"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/Darkpurple"
+        android:layout_below="@id/slide2title"
+        android:textAlignment="center"
+        android:id="@+id/slide2desc"
+        />
+
+
+</RelativeLayout>

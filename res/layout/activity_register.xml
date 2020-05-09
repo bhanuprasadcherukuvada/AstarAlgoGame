@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/bgimg1">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a new Account"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:layout_marginTop="50sp"
+            android:id="@+id/tv_createaccount"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_createaccount"
+            android:id="@+id/et_name"
+            android:textSize="20sp"
+            android:hint="Name"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="@android:color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_name"
+            android:id="@+id/et_email"
+            android:textSize="20sp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="@android:color/white"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_email"
+            android:id="@+id/et_password"
+            android:textSize="20sp"
+            android:hint="Create A Password"
+            android:inputType="numberPassword"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="@android:color/white"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_password"
+            android:id="@+id/et_phone"
+            android:textSize="20sp"
+            android:hint="Phone no"
+            android:inputType="number"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_phone"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15sp"
+            android:layout_marginRight="25sp"
+            android:text="Register"
+            android:textSize="20sp"
+            android:id="@+id/btn_register"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_register"
+            android:text="Already a user?Login Here"
+            android:textSize="20sp"
+            android:id="@+id/tv_loginhere"
+            android:textAlignment="center"
+            android:layout_marginTop="20sp"
+            android:textColor="@android:color/white"
+            android:onClick="registertologin"
+            />
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_loginhere"
+            android:layout_marginTop="20sp"
+            android:id="@+id/progressbarid"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressbarid"
+            android:onClick="backslidefun"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="10sp"
+            android:text="Back to the slides"
+            android:id="@+id/btn_backslides"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
